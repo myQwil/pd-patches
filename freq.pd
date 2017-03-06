@@ -1,4 +1,4 @@
-#N canvas 750 374 429 314 10;
+#N canvas 752 347 429 314 10;
 #X floatatom 200 223 5 0 0 0 - - -, f 5;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array view 500 float 1 black black;

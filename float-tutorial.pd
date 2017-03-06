@@ -1,4 +1,4 @@
-#N canvas 754 356 494 300 12;
+#N canvas 749 342 494 300 12;
 #X obj 169 103 radx 2;
 #X obj 94 57 cupqbl;
 #X obj 51 57 cupqbl;

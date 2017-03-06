@@ -1,4 +1,4 @@
-#N canvas 649 233 563 427 10;
+#N canvas 749 257 563 427 10;
 #X obj 72 201 phasor~;
 #X obj 73 287 *~;
 #X floatatom 106 253 5 0 0 0 - - -, f 5;
@@ -51,7 +51,6 @@
 #X connect 8 0 0 0;
 #X connect 9 0 0 0;
 #X connect 10 0 0 0;
-#X coords 0 0 1 1 200 140 0;
 #X restore 314 50 pd scale;
 #X obj 157 47 r scale;
 #N canvas 470 73 484 323 metro 0;
