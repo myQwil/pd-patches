@@ -1,4 +1,4 @@
-#N canvas 767 309 483 367 10;
+#N canvas 765 310 485 365 10;
 #X obj 268 173 dac~;
 #X obj 272 139 *~;
 #X floatatom 356 146 5 0 0 0 - - -, f 5;
@@ -295,7 +295,7 @@
 #X connect 26 0 25 2;
 #X restore 240 40 pd vals;
 #N canvas 159 139 450 300 info 0;
-#X text 165 105 artist : myQuil;
+#X text 165 105 artist : myQwil;
 #X text 172 119 title : ModStep;
 #X text 165 133 l!ength : 179700;
 #X text 165 148 length : 0;

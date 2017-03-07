@@ -1,7 +1,7 @@
-#N canvas 526 159 941 721 12;
+#N canvas 525 160 940 720 12;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X array wave 500 float 0 black black;
-#X coords 0 0 499 1 0 0 0;
+#X coords 0 1 499 -1 200 140 1;
 #X restore 746 40 graph;
 #X obj 258 621 *~;
 #X obj 236 679 dac~;
@@ -12,7 +12,7 @@
 #X obj 60 596 tabwrite~ wave;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X array cos 500 float 0 black black;
-#X coords 0 0 499 1 0 0 0;
+#X coords 0 1 499 -1 200 140 1;
 #X restore 746 195 graph;
 #X obj 400 677 tabwrite~ cos;
 #X obj 246 472 lop~;
@@ -1099,9 +1099,9 @@
 #X floatatom 732 359 5 0 0 0 - - -, f 5;
 #X obj 732 381 * 0.01;
 #X obj 732 406 s vol;
-#X text 77 55 myQuil;
+#X text 77 55 myQwil;
 #N canvas 302 389 450 300 info 0;
-#X text 164 81 artist : myQuil;
+#X text 164 81 artist : myQwil;
 #X text 172 98 title : squaw;
 #X text 164 115 length : 310000;
 #X restore 389 173 pd info;

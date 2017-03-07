@@ -1,4 +1,4 @@
-#N canvas 749 342 494 300 12;
+#N canvas 695 355 495 300 12;
 #X obj 169 103 radx 2;
 #X obj 94 57 cupqbl;
 #X obj 51 57 cupqbl;
@@ -14,8 +14,8 @@
 #X symbolatom 169 128 12 0 0 0 - - -, f 12;
 #X text 169 152 followed by the mantissa;
 #X text 191 20 HOW FLOATS WORK;
-#X text 218 67 # of decimal point shifts;
-#X text 218 87 (zeros before/after the first 1);
+#X text 218 67 place value;
+#X text 218 87 (# of zeros before/after the first 1);
 #X connect 0 0 12 0;
 #X connect 1 0 3 1;
 #X connect 1 0 4 0;

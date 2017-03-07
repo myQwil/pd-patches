@@ -1,4 +1,4 @@
-#N canvas 675 231 563 427 10;
+#N canvas 660 285 565 425 10;
 #X obj 72 201 phasor~;
 #X obj 73 287 *~;
 #X floatatom 106 253 5 0 0 0 - - -, f 5;
@@ -229,7 +229,7 @@
 #X obj 72 158 muse;
 #X obj 297 24 r play;
 #X obj 287 333 r vol;
-#X text 70 42 myQuil;
+#X text 70 42 myQwil;
 #X msg 198 271 30;
 #X obj 72 180 pad~ 2;
 #X obj 246 185 pad~ 2;

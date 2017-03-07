@@ -1,4 +1,4 @@
-#N canvas 754 326 450 338 10;
+#N canvas 755 325 450 340 10;
 #X obj 207 152 freqm~;
 #X obj 137 63 tgl 15 0 empty empty empty 17 7 0 10 -1 -262144 -1 0
 1;
@@ -29,7 +29,7 @@
 #X obj 266 275 pad~;
 #N canvas 719 355 450 300 info 0;
 #X text 167 127 album : amPd;
-#X text 160 113 artist : myQuil;
+#X text 160 113 artist : myQwil;
 #X text 167 99 title : freqshift;
 #X text 160 141 length : 0;
 #X restore 323 199 pd info;
