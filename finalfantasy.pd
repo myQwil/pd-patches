@@ -18,7 +18,7 @@
 #X obj 279 300 pad~;
 #X obj 327 377 mix~;
 #X floatatom 327 314 5 0 0 0 - - -, f 5;
-#X obj 327 333 * 0.01;
+#X obj 327 333 / 1000;
 #X obj 327 355 pad~;
 #N canvas 978 64 367 208 scale 0;
 #X obj 174 177 s scale;
@@ -206,7 +206,7 @@
 #X connect 28 0 27 0;
 #X connect 29 0 30 0;
 #X restore 249 50 pd metro;
-#X obj 249 30 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 249 30 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 372 155 5 0 0 0 - - -, f 5;
 #X obj 372 173 % 150;
@@ -228,7 +228,7 @@
 #X obj 246 163 muse;
 #X obj 72 158 muse;
 #X obj 297 24 r play;
-#X obj 404 302 r vol;
+#X obj 287 333 r vol;
 #X text 70 42 myQuil;
 #X msg 198 271 30;
 #X obj 72 180 pad~ 2;
@@ -244,7 +244,7 @@
 #X msg 372 382 15000;
 #X obj 443 347 t;
 #X msg 382 351 0;
-#X obj 460 271 r play;
+#X obj 443 303 r play;
 #X obj 36 225 expr~ $v1 > 0.75;
 #X obj 217 228 expr~ $v1 > 0.9;
 #X obj 445 50 cupqb;
