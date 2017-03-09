@@ -1,4 +1,4 @@
-#N canvas 635 295 565 445 10;
+#N canvas 660 285 565 445 10;
 #X obj 47 273 phasor~;
 #X obj 52 364 *~;
 #X floatatom 93 341 5 0 0 0 - - -, f 5;
@@ -201,7 +201,7 @@
 #X connect 26 0 27 0;
 #X connect 28 0 2 1;
 #X restore 249 60 pd metro;
-#X obj 249 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 249 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 372 165 5 0 0 0 - - -, f 5;
 #X obj 372 183 % 150;
@@ -224,7 +224,7 @@
 #X obj 72 168 muse;
 #X obj 297 34 r play;
 #X obj 287 343 r vol;
-#X text 70 52 myQwil;
+#X text 56 35 myQwil;
 #X msg 170 369 30;
 #X obj 72 190 pad~ 2;
 #X obj 246 195 pad~ 2;
@@ -234,7 +234,7 @@
 #X text 174 77 artist : Nobuo Uematsu;
 #X text 181 91 title : Final Fantasy;
 #X text 174 105 length : 195000;
-#X restore 67 70 pd info;
+#X restore 53 53 pd info;
 #X obj 443 335 del 180000;
 #X msg 372 392 15000;
 #X obj 443 357 t;
@@ -263,10 +263,10 @@
 #X obj 433 274 s mt;
 #N canvas 760 335 450 346 trem 0;
 #X obj 210 230 outlet;
-#X obj 225 68 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 225 68 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 225 88 metro;
-#X obj 225 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 225 110 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 225 130 sel 0 1;
 #X obj 255 172 f;
