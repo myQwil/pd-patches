@@ -2,7 +2,7 @@
 #X obj 213 151 *~;
 #X obj 235 127 inlet~;
 #X obj 205 173 dac~;
-#X obj 213 104 -~ 0.27;
+#X obj 213 104 hip~ 1;
 #X obj 145 188 outlet~;
 #X obj 213 82 catch~ all;
 #X connect 0 0 2 0;
