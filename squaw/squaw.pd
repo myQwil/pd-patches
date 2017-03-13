@@ -8,7 +8,7 @@
 #X obj 287 79 s bt;
 #X obj 332 35 ii 2000;
 #X floatatom 332 57 5 0 0 0 - - -, f 5;
-#X obj 332 78 s mt;
+#X obj 332 79 s mt;
 #X obj 83 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -89572 -1
 -1;
 #X obj 89 252 s play;
@@ -21,7 +21,7 @@
 #X obj 143 303 tabwrite~ view;
 #X obj 383 35 ii 500;
 #X floatatom 383 57 5 0 0 0 - - -, f 5;
-#X obj 383 78 s pmnt;
+#X obj 383 79 s pmnt;
 #X text 370 95 portamento;
 #X floatatom 383 127 5 0 0 0 - - -, f 5;
 #X obj 383 148 s dis;
@@ -95,7 +95,7 @@
 #X obj 68 78 inst -1 0.1 0.3;
 #X obj 87 100 inst 1 0.05 0.175;
 #X obj 106 122 inst 1 0 0.02;
-#X obj 125 144 inst -1 0 0.2;
+#X obj 125 144 inst -1 0 0.25;
 #X obj 144 166 inst 1 0 0.02;
 #X obj 163 188 inst -1 0 0.333;
 #X obj 182 210 inst 1 0 0.02;
