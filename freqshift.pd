@@ -51,11 +51,11 @@
 #X floatatom 250 128 5 0 0 0 - - -, f 5;
 #X floatatom 369 131 5 0 0 0 - - -, f 5;
 #X floatatom 115 190 5 0 0 0 - - -, f 5;
-#X msg 115 209 k \$1;
+#X msg 115 209 x \$1;
 #X floatatom 348 198 5 0 0 0 - - -, f 5;
-#X msg 348 217 k \$1;
+#X msg 348 217 x \$1;
 #X floatatom 232 202 5 0 0 0 - - -, f 5;
-#X msg 232 221 k \$1;
+#X msg 232 221 x \$1;
 #X obj 70 127 rand 46;
 #X obj 187 150 muse 48 4 7 9 10;
 #X obj 68 150 muse 0 4 7 9 10;
@@ -138,9 +138,9 @@
 #X floatatom 127 180 5 0 0 0 - - -, f 5;
 #X floatatom 287 184 5 0 0 0 - - -, f 5;
 #X floatatom 294 209 5 0 0 0 - - -, f 5;
-#X msg 294 231 k \$1;
+#X msg 294 231 x \$1;
 #X floatatom 161 205 5 0 0 0 - - -, f 5;
-#X msg 160 224 k \$1;
+#X msg 160 224 x \$1;
 #X floatatom 180 137 5 0 0 0 - - -, f 5;
 #X floatatom 307 139 5 0 0 0 - - -, f 5;
 #X floatatom 341 117 5 0 0 0 - - -, f 5;

@@ -479,10 +479,10 @@
 #X obj 23 260 outlet~;
 #X obj 167 70 r pt;
 #X floatatom 70 41 5 0 0 0 - - -, f 5;
-#X msg 70 60 k \$1;
+#X msg 70 60 x \$1;
 #X obj 256 69 * 10;
 #X floatatom 348 41 5 0 0 0 - - -, f 5;
-#X msg 348 60 k \$1;
+#X msg 348 60 x \$1;
 #X obj 23 134 rand 24;
 #X obj 23 156 muse 14 7;
 #X obj 316 151 muse 7 3 5 7 10;
@@ -532,11 +532,11 @@
 #X obj 145 40 t;
 #X obj 168 117 b;
 #X floatatom 13 18 5 0 0 0 - - -, f 5;
-#X msg 13 37 k \$1;
+#X msg 13 37 x \$1;
 #X floatatom 251 16 5 0 0 0 - - -, f 5;
-#X msg 251 35 k \$1;
+#X msg 251 35 x \$1;
 #X floatatom 106 16 5 0 0 0 - - -, f 5;
-#X msg 106 35 k \$1;
+#X msg 106 35 x \$1;
 #X obj 249 152 rind;
 #X obj 124 151 rind;
 #X obj 10 151 rind;
@@ -611,9 +611,9 @@
 #X obj 113 30 t;
 #X obj 104 118 b;
 #X floatatom 202 32 5 0 0 0 - - -, f 5;
-#X msg 202 54 k \$1;
+#X msg 202 54 x \$1;
 #X floatatom 67 25 5 0 0 0 - - -, f 5;
-#X msg 66 44 k \$1;
+#X msg 66 44 x \$1;
 #X floatatom 148 46 5 0 0 0 - - -, f 5;
 #X floatatom 258 11 5 0 0 0 - - -, f 5;
 #X msg 74 -17 7;
@@ -1147,7 +1147,7 @@
 #X obj 113 17 t;
 #X obj 124 114 b;
 #X floatatom 67 12 5 0 0 0 - - -, f 5;
-#X msg 66 31 k \$1;
+#X msg 66 31 x \$1;
 #X msg 74 -30 7;
 #X obj 72 150 rind;
 #X floatatom 84 114 5 0 0 0 - - -, f 5;
@@ -1321,7 +1321,7 @@
 #X obj 138 34 t;
 #X obj 90 115 b;
 #X floatatom 53 21 5 0 0 0 - - -, f 5;
-#X msg 52 40 k \$1;
+#X msg 52 40 x \$1;
 #X msg 53 -5 7;
 #X obj 54 145 rind;
 #X floatatom 193 88 5 0 0 0 - - -, f 5;

@@ -26,8 +26,8 @@
 #X obj 83 17 r bar;
 #X floatatom 45 42 5 0 0 0 - - -, f 5;
 #X msg 190 73 d 3 8 10;
-#X msg 202 97 k d+2;
-#X msg 276 106 k d+2;
+#X msg 202 97 x d+2;
+#X msg 276 106 x d+2;
 #X msg 262 84 list d-3 4 7 11;
 #X msg 114 116 list d-3 2 3 7;
 #X msg 48 76 list d+2 2 4 7;
@@ -243,7 +243,7 @@
 #X obj 47 295 expr~ $v1 > 0.75;
 #X obj 177 308 expr~ $v1 > 0.9;
 #X obj 471 52 cupqb;
-#X msg 445 141 k \$1;
+#X msg 445 141 x \$1;
 #X obj 445 163 s scale;
 #X obj 471 28 ii 44;
 #X obj 471 119 r dig;
