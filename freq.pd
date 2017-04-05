@@ -1025,8 +1025,8 @@
 #X connect 10 0 11 2;
 #X connect 11 0 0 0;
 #X restore 208 196 pd reverb;
-#X obj 26 227 rind 0.25 0.75;
-#X obj 220 228 rind 0.3 0.7;
+#X obj 26 227 rind -25 25;
+#X obj 220 228 rind -25 25;
 #X obj 237 80 pad~;
 #X obj 43 82 pad~;
 #X connect 2 0 26 0;
