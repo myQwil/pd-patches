@@ -1409,7 +1409,7 @@
 #X connect 22 0 11 0;
 #X connect 23 0 11 0;
 #X restore 170 88 pd vol;
-#X obj 146 154 rind 0.4 0.6;
+#X obj 146 154 rind -10 10;
 #X obj 175 109 pad~;
 #X connect 0 0 3 0;
 #X connect 1 0 11 2;
