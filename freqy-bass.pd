@@ -161,7 +161,7 @@
 #X connect 33 0 30 2;
 #X connect 34 0 29 2;
 #X restore 186 18 pd vals;
-#X obj 191 40 freqm~;
+#X obj 191 40 fmod~;
 #N canvas 1221 502 311 248 vals 0;
 #X obj 38 220 outlet~;
 #X obj 161 220 outlet~;
@@ -237,7 +237,7 @@
 #X obj 221 220 s play;
 #X obj 119 25 ii 100;
 #X obj 272 118 *~ 0.6;
-#X obj 216 63 fmbloc~;
+#X obj 216 63 fmad~;
 #N canvas 168 558 450 300 mix 0;
 #X obj 140 65 r pre;
 #X obj 140 136 s met;
@@ -245,8 +245,8 @@
 #X obj 259 75 % 32;
 #X obj 142 88 moses 32;
 #X floatatom 206 152 5 0 0 0 - - -, f 5;
-#X obj 270 109 graid 0 6000 31;
-#X obj 140 114 graid 50 750 32;
+#X obj 270 109 span 0 6000 31;
+#X obj 140 114 span 50 750 32;
 #X obj 272 135 + 750;
 #X connect 0 0 4 0;
 #X connect 2 0 4 0;
@@ -266,7 +266,7 @@
 #X obj 70 159 * 1.1;
 #X obj 44 158 / 2;
 #X obj 354 165 / 1000;
-#X obj 319 149 pad;
+#X obj 319 149 zp;
 #X floatatom 33 223 5 0 0 0 - - -, f 5;
 #X floatatom 96 187 5 0 0 0 - - -, f 5;
 #X obj 165 63 r eq;
@@ -274,7 +274,7 @@
 #X obj 220 100 ==;
 #X obj 204 81 r eq0;
 #X obj 154 104 r eq1;
-#X obj 129 126 graid 0 1 63;
+#X obj 129 126 span 0 1 63;
 #X text 27 317 myQwil;
 #X obj 358 126 tabwrite~ \$0-view;
 #X connect 1 0 0 0;

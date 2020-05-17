@@ -1,5 +1,5 @@
 #N canvas 755 325 450 340 10;
-#X obj 207 152 freqm~;
+#X obj 207 152 fmod~;
 #X obj 137 63 tgl 15 0 empty empty empty 17 7 0 10 -1 -262144 -1 0
 1;
 #X floatatom 321 39 5 0 0 0 - - -, f 5;
@@ -20,13 +20,13 @@
 #X obj 102 212 ad~ 5 10000;
 #X obj 270 35 r shft;
 #X obj 241 94 del;
-#X obj 208 196 pad~ 200;
-#X obj 120 256 pad~ 200;
+#X obj 208 196 zp~ 200;
+#X obj 120 256 zp~ 200;
 #X obj 120 179 s shft;
 #X obj 120 114 b;
 #X floatatom 170 175 8 0 0 0 - - -, f 8;
 #X obj 286 55 b;
-#X obj 266 275 pad~;
+#X obj 266 275 zp~;
 #N canvas 719 355 450 300 info 0;
 #X text 167 127 album : amPd;
 #X text 160 113 artist : myQwil;
@@ -40,9 +40,9 @@
 #X obj 307 252 outlet~;
 #X obj 73 252 outlet~;
 #X obj 183 252 outlet~;
-#X obj 307 202 pad~;
-#X obj 73 206 pad~;
-#X obj 183 204 pad~;
+#X obj 307 202 zp~;
+#X obj 73 206 zp~;
+#X obj 183 204 zp~;
 #X floatatom 314 172 5 0 0 0 - - -, f 5;
 #X floatatom 194 174 5 0 0 0 - - -, f 5;
 #X floatatom 74 170 5 0 0 0 - - -, f 5;
@@ -132,8 +132,8 @@
 #N canvas 719 355 450 300 vals 0;
 #X obj 118 252 outlet~;
 #X obj 241 256 outlet~;
-#X obj 118 222 pad~;
-#X obj 241 221 pad~;
+#X obj 118 222 zp~;
+#X obj 241 221 zp~;
 #X obj 238 187 r met;
 #X floatatom 127 180 5 0 0 0 - - -, f 5;
 #X floatatom 287 184 5 0 0 0 - - -, f 5;
@@ -194,7 +194,7 @@
 #X connect 28 0 18 0;
 #X restore 262 151 pd vals;
 #X obj 153 88 s tog;
-#X obj 229 174 fmbloc~;
+#X obj 229 174 fmad~;
 #X obj 120 234 == 0;
 #X text 112 13 myQwil;
 #N canvas 719 355 450 300 rec 0;
